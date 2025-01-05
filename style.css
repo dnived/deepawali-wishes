@@ -1,0 +1,257 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Salsa", serif;
+}
+
+.hero-section {
+  /* min-height: 100vh; */
+  background-image: url("./images/orange-backdrop.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hero-section .lights {
+  width: 220px;
+  margin-bottom: -150px;
+}
+
+.hero-paragraph-and-audio {
+  margin-left: 15rem;
+}
+
+.hero-paragraph-and-audio p {
+  font-size: 36px;
+  font-weight: 400;
+  max-width: 550px;
+}
+
+audio::-webkit-media-controls-panel {
+  background-color: #fbd8a4;
+}
+
+.audio-player-container {
+  background-color: #fbd8a4;
+  max-width: max-content;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 45px;
+  padding-left: 15px;
+  margin-right: 10px;
+}
+
+.lakshmi-and-ganesh-container {
+  background-color: #f99501;
+  /* display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; */
+  padding: 0.1rem;
+  display: flow-root;
+}
+
+.divider-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  max-width: 100%;
+  margin-top: 1em;
+  margin-bottom: 2em;
+  /* margin-inline: 3rem; */
+  padding-inline: 1rem;
+}
+
+.horizontal-line {
+  width: 450px;
+  height: 4px;
+  background-color: #fbd8a4;
+}
+
+.circle {
+  height: 8px;
+  width: 8px;
+  flex-shrink: 0;
+  background-color: #fbd8a4;
+  border-radius: 50%;
+}
+
+.lakshmi-and-ganesh {
+  width: 90%;
+  /* margin: 64px 36px 120px 36px; */
+  margin: auto;
+  margin-bottom: 50px;
+  border: 25px;
+}
+
+.lakshmi-and-ganesh img {
+  width: 100%;
+}
+
+.lakshmi-and-ganesh-container p {
+  font-family: "Style Script", serif;
+  font-weight: 400;
+  font-size: 70px;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.deepawali-message-container {
+  background-color: #f99501;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding-top: 50px;
+  padding-inline: 8em;
+}
+
+.message-box {
+  background-color: #ffffff;
+  /* max-width: 400px; */
+  padding: 4em;
+  border-radius: 16px;
+}
+
+.message-box p {
+  font-family: "Salsa", serif;
+  font-weight: 400;
+  font-size: 36px;
+}
+
+.deepawali-message-container img {
+  max-width: 300px;
+  margin-left: -80px;
+}
+
+.thank-you-container {
+  background-color: #f99501;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  padding-inline: 2em;
+}
+
+.bottom-img {
+  max-width: 100%;
+  background-color: #ffffff;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  padding: 1em;
+  /* margin: 1em; */
+}
+
+.bottom-img img {
+  width: 50%;
+}
+
+.thank-you-container p {
+  margin: 0;
+}
+
+.thank-you-container .happy-diwali {
+  margin-top: 2em;
+}
+
+.thank-you-container .thank-you {
+  font-family: "Style Script", serif;
+  font-weight: 400;
+  font-size: 52px;
+}
+
+.thank-you-container .developer {
+  display: block;
+  margin-left: auto;
+  padding-bottom: 1em;
+}
+
+@media (max-width: 860px) {
+  .first-deepak {
+    display: block;
+    margin-left: auto;
+  }
+  .second-deepak,
+  .audio-title,
+  .audio-sound-icon {
+    display: none;
+  }
+  .hero-section .lights {
+    margin-bottom: 0px;
+  }
+  .hero-paragraph-and-audio p {
+    font-size: 32px;
+  }
+
+  .hero-paragraph-and-audio {
+    margin-left: 10px;
+  }
+
+  .lakshmi-and-ganesh-container p {
+    font-size: 54px;
+  }
+  .message-box {
+    padding-right: 6em;
+  }
+
+  .message-box p {
+    font-size: 24px;
+  }
+
+  .deepawali-message-container img {
+    max-width: 240px;
+    margin-left: -80px;
+  }
+
+  .thank-you-container .thank-you {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 540px) {
+  .first-deepak {
+    width: 100%;
+  }
+
+  .lakshmi-and-ganesh-container p {
+    font-size: 32px;
+  }
+
+  .deepawali-message-container {
+    padding: 1em;
+  }
+
+  .message-box {
+    padding: 1em 3em;
+  }
+  .message-box p {
+    font-size: 16px;
+  }
+
+  .deepawali-message-container img {
+    width: 200px;
+    margin-left: -60px;
+  }
+
+  .thank-you-container .happy-diwali,
+  .thank-you-container .developer {
+    font-size: 0.9em;
+  }
+  .thank-you-container .thank-you {
+    font-size: 24px;
+    margin-top: 0.5em;
+
+    margin-bottom: 1em;
+  }
+}
+
+/* @media (width<840){
+  .second-deepak{
+    display: none;
+  }
+} */
