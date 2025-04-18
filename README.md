@@ -1,5 +1,11 @@
-# Deepawali Wishes
+### Deepawali Wishes - Responsive Web Page
 
-## Responsive Web page created using html and css.
+### Click [here](https://dnived.github.io/deepawali-wishes/) to view the webpage
 
-## To view the web page [click here](https://dnived.github.io/deepawali-wishes/)
+![Screenshot of the page](./images/scheenshot.png)
+
+
+### What did I learned
+- HTML
+- CSS
+- CSS Media Queries
